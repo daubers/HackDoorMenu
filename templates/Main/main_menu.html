@@ -1,9 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block content %}
+    <div class="row">
+          <div class="col-md-12 text-center"><h1>Welcome to Rlab</h1></div>
+    </div>
+    <div class="row" style="margin-top: 20px;">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+              <ul class="list-unstyled">
+                  <li style="margin-bottom: 10px; width: 60%; margin-left: auto; margin-right: auto;"><button class="btn-primary" style="width: 100%"><h3>Guestbook Entry</h3></button></li>
+                  <li style="margin-bottom: 10px; width: 60%; margin-left: auto; margin-right: auto;"><button class="btn-primary" style="width: 100%"><h3>Raise an Issue</h3></button></li>
+                  <li style="margin-bottom: 10px; width: 60%; margin-left: auto; margin-right: auto;"><button class="btn-primary" style="width: 100%"><h3>Member Control Panel</h3></button></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/RDGhack" data-widget-id="470579886264811521">Tweets by @RDGhack</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+    </div>
+{% endblock %}
