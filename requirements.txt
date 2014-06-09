@@ -1,0 +1,14 @@
+Django==1.6.5
+TwitterAPI==2.1.13
+amqp==1.4.5
+anyjson==0.3.3
+billiard==3.3.0.17
+celery==3.1.11
+django-celery==3.1.10
+django-celery-email==1.0.4
+kombu==3.0.18
+oauthlib==0.6.1
+pytz==2014.4
+requests==2.3.0
+requests-oauthlib==0.4.0
+wsgiref==0.1.2

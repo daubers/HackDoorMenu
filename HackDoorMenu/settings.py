@@ -38,6 +38,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'HackDoor',
+    'djcelery_email',
+    'GuestBook'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -87,3 +89,7 @@ STATICFILES_DIRS = (
 )
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
+
+ADMIN_EMAILS = [
+    {'email': 'matt@daubers.co.uk', 'name': 'Matt Daubney'},
+    ]
